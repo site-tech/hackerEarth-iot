@@ -9,7 +9,7 @@ jobs:
     name: Build
     runs-on: ubuntu-latest
     steps:
-      - name: send telegram message on push
+      - name: telegram msg 
         uses: appleboy/telegram-action@0.0.3
         with:
           to: ${{ secrets.TELEGRAM_TO }}
