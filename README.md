@@ -14,8 +14,8 @@ brew install pre-commit
 
 ## Run Application Using Doppler
 ```
-go build -o bin/togo-read -v .
-./bin/togo-read
+go build -o bin/hack-iot -v .
+./bin/hack-iot
 ```
 
 ## Run Tests
@@ -34,7 +34,7 @@ go tool cover -html=./tests/coverage.out
 brew install sonar-scanner
 
 sonar-scanner \
-  -Dsonar.projectKey=togo-read-micro \
+  -Dsonar.projectKey=hackerEarth-iot \
   -Dsonar.sources=. \
   -Dsonar.host.url=${SONAR_HOST_URL} \
   -Dsonar.login=${SONAR_LOGIN}
