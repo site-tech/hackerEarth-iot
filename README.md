@@ -1,4 +1,4 @@
-![security rating](./badges/securityRating.svg) ![vulnerabilities](./badges/vulnerabilities.svg)
+![security rating](./badges/securityRating.svg) ![vulnerabilities](./badges/vulnerabilities.svg) [![codecov](https://codecov.io/gh/site-tech/hackerEarth-iot/branch/main/graph/badge.svg?token=7UX74PCX0T)](https://codecov.io/gh/site-tech/hackerEarth-iot)
 
 # HackerEarth Hackathon Project for team SiteTech
 This is all the code and documentation for our submission.
