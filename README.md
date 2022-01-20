@@ -1,3 +1,5 @@
+![security rating](./badges/securityRating.svg) ![vulnerabilities](./badges/vulnerabilities.svg)
+
 # HackerEarth Hackathon Project for team SiteTech
 This is all the code and documentation for our submission.
 
@@ -19,6 +21,7 @@ go build -o bin/togo-read -v .
 ## Run Tests
 ```
 go test -v ./tests -coverprofile=./coverage.out -coverpkg ./...
+go test ./tests -coverprofile=./tests/coverage.out -coverpkg ./... -json > ./tests/test-report.out
 ```
 
 ## See Coverage Report
