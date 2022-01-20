@@ -9,5 +9,5 @@ import (
 
 func TestTests(t *testing.T) {
 	RegisterFailHandler(Fail)
-	RunSpecs(t, "Togo-Read-Micro Test Suite")
+	RunSpecs(t, "HackerEarth IOT Test Suite")
 }
